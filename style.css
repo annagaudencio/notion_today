@@ -3,16 +3,13 @@
    -------------------------------------------------- */
 
 html {
-    max-width: 23em;
+    max-width: 18em;
     margin: 0 auto;
-    padding: 1.25em;
+    padding: 1em;
     font: 100% "Poppins", sans-serif;
     text-align: center;
     color: #363636;
 }
-
-
-
 
 
 
@@ -38,8 +35,8 @@ html {
    -------------------------------------------------- */
 
 .today-piece {
-    border-radius: 0.25rem;
-    padding: 1.6rem;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
     font-size: 1.25em;
     text-align: center;
 }
@@ -83,13 +80,12 @@ html {
 .month {
     padding-top: 1.75rem;
     padding-bottom: 0;
-    font-size: 1.5em;
-    font-weight: 200;
+    font-size: 1em;
+    font-weight: 400;
 }
 .date {
-    padding-top: 0;
-    padding-bottom: 1.75rem;
-    font-size: 3em;
+    padding: 1rem;
+    font-size: 3.2em;
   font-family: 'Playfair Display', serif;
 }
 
