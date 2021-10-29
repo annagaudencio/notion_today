@@ -9,10 +9,11 @@ html {
     font: 100% "Poppins", sans-serif;
     text-align: center;
     color: #363636;
-   background: #ffffff;
 }
 
-
+body {
+   background: #fff;
+}
 
 
 /* Intro
