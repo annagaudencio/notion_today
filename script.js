@@ -14,16 +14,16 @@ function DateTime() {
         if (c == 2 && d == 1) return "th";
         switch(e) {
             case 1:
-                return "st";
+                return "";
                 break;
             case 2:
-                return "nd";
+                return "";
                 break;
             case 3:
-                return "rd";
+                return "";
                 break;
             default:
-                return "th";
+                return "";
                 break;
         };
     };
@@ -35,8 +35,8 @@ function DateTime() {
 
     this.date = arguments.length == 0 ? new Date() : new Date(arguments);
 
-    this.weekdays = new Array('Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday');
-    this.months = new Array('January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December');
+    this.weekdays = new Array('Domingo', 'Segunda', 'Terça', 'Quarta', 'Quinta', 'Sexta', 'Sábado');
+    this.months = new Array('Janeiro', 'Fevereiro', 'Março', 'Abril', 'Maio', 'Junho', 'Julho', 'Agosto', 'Setembro', 'Outubro', 'Novembro', 'Dezembro');
     this.daySuf = new Array( "st", "nd", "rd", "th" );
 
     this.day = {
