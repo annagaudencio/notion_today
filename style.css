@@ -1,3 +1,4 @@
+<style>
 /* Base
    -------------------------------------------------- */
 
@@ -5,18 +6,11 @@ html {
     max-width: 23em;
     margin: 0 auto;
     padding: 1.25em;
-    font: 100% "Helvetica Neue", sans-serif;
+    font: 100% "Poppins", sans-serif;
     text-align: center;
-    color: #222;
-    background: #e2e7e8;
+    color: #363636;
 }
-a {
-    color: #d74435;
-}
-a:hover,
-a:focus {
-    color: #e94939;
-}
+
 
 
 
@@ -33,7 +27,6 @@ a:focus {
     font-size: 1.2em;
     font-weight: 200;
     text-align: left;
-    background: rgba(255, 255, 255, 0.75);
 }
 
 
@@ -49,7 +42,6 @@ a:focus {
     padding: 1.6rem;
     font-size: 1.25em;
     text-align: center;
-    background: white;
 }
 
 
@@ -86,8 +78,7 @@ a:focus {
     font-weight: 500;
     letter-spacing: 0.35em;
     text-transform: uppercase;
-    color: white;
-    background: #e94939;
+    color: #363636;
 }
 .month {
     padding-top: 1.75rem;
@@ -99,7 +90,7 @@ a:focus {
     padding-top: 0;
     padding-bottom: 1.75rem;
     font-size: 3em;
-    font-weight: 100;
+  font-family: 'Playfair Display', serif;
 }
 
 
@@ -114,3 +105,4 @@ footer {
     margin-top: 0.75rem;
     font-size: 0.65em;
 }
+</style>
